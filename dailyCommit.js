@@ -4,7 +4,7 @@ const fs = require("fs");
 const makeDailyCommit = () => {
   try {
     // Change directory to the Git repository
-    const repoPath = "/Users/kanemiller/Downloads/daily-commits-DONT-TOUCH";
+    const repoPath = "/volume3/homes/Kanemiller/daily-commits-home";
     process.chdir(repoPath);
 
     // Ensure we're on the main branch and reset any changes
